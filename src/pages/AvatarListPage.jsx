@@ -1,7 +1,6 @@
-import Avatar from '../components/Avatar';
+import Avatar from '@/components/Avatar';
 
 function AvatarListPage() {
-
   return (
     <ul className="AvatarList">
       <li>
@@ -17,7 +16,7 @@ function AvatarListPage() {
         <Avatar name="정민" photo="woman-01.jpg" />
       </li>
     </ul>
-  )
+  );
 }
 
 export default AvatarListPage;
